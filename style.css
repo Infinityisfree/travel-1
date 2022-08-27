@@ -122,3 +122,91 @@ outline: none;
     transition: all 0.2s ease-out;
 
 }
+.categories-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    color: #fff;
+}
+.categories-item{
+    display: grid;
+    justify-items: center;
+    color: #fff;
+    gap: 10px;
+    opacity: 0,5;
+    cursor: pointer;
+    transition: all 0,2s ease;
+}
+.categories{
+    margin-top: 40px;
+}
+
+.categories-item:hover{
+    opacity: 1.0;
+    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid #fff;
+
+}
+.categories-title{
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 44.06px;
+    line-height: 50.67px;
+    margin-top: 55px;
+    color: #fff;
+}
+.categories-item>span{
+    padding: 6px;
+    border-bottom: 1px solid transparent;
+}
+.categories-item:hover>span{
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer;
+}
+.carusel{
+    margin-top: 56px;
+}
+.carusel-list{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    width: fit-content;
+    margin-top: 30px;
+}
+.carusel-item{
+    display: block;
+    width: 310px;
+    height: 200px;
+    border: radius 8px; ;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-color: #2659C3;
+    position: relative;
+}
+.carusel-item-text{
+    font-family: Helvetica ;
+    font-style: normal;
+    font: size 24px;
+    font-weight: 500px ;
+    line-height: 31px;
+    color: #fff;
+    position: absolute;
+    left: 24px;
+    bottom: 23px;
+
+}
+.sub-title{
+    color: #fff;
+    font-size: 32px;
+    font-family: Helvetica;
+    Font style: Bold
+    Line height: 100%
+    Align: Left
+    Vertical align: Top
+}
+   
