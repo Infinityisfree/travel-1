@@ -10,6 +10,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    position: relative;
 }
 .head {
     display: flex;
@@ -126,11 +127,14 @@ outline: none;
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    margin-top: 40px;
-    width: 100%;
-    height: 60px;
+    margin-top: 80px;
+    flex-direction: row;
+    align-items: flex-start;
+    
+   height: 91.09px;
     padding: 10px;
     color: #fff;
+    
 }
 .categories-item{
     display: grid;
@@ -168,7 +172,7 @@ outline: none;
     cursor: pointer;
 }
 .carusel{
-    margin-top: 56px;
+    margin-top: 200px;
 }
 .carusel-list{
     display: flex;
@@ -209,4 +213,70 @@ outline: none;
     Align: Left
     Vertical align: Top
 }
-   
+.gradient{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 100%);
+}
+.white{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.card-item{
+    box-shadow: 0px 0px 20px 5px #c2c2c2;
+    border-radius: 16px;
+    padding: 24px 16px;
+    display: flex;
+    gap: 24px;
+    height: 200px;
+    width: 650px;
+}
+.text1{
+    display: block;
+    font-size: 16px;
+
+    color: #9c9c9c;
+
+}
+.text2{
+    display: block;
+    font-family: 'Netflix Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.text3{
+    display: block;
+    font-family: Netflix Sans ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #9c9c9c;
+
+}
+.card-content{
+    display: grid;
+    align-content: stretch;
+}
+   .card-content>button{
+    border-radius: 32px ;
+    padding: 16px 32px;
+    width: 170px ;
+    font-size: 16px;
+    cursor: pointer;
+    background: #3a6cd8;
+    border: none;
+    color: #fff;
+    transition: all .2s ease ;
+   }
+   .card-content>button:hover{
+    background: #07225e;
+   }
