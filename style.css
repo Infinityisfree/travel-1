@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -46,6 +46,8 @@ font-weight: bold;
     width: 1024px;
     height: auto;
     margin: 40px auto;
+    padding: 0 40px;
+    /* overflow: hidden; */
 }
 .title{
     font-family: 'Helvetica';
@@ -208,10 +210,9 @@ outline: none;
     color: #fff;
     font-size: 32px;
     font-family: Helvetica;
-    Font style: Bold
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
+    font-style: Bold;
+    align-items: left;
+    vertical-align: top;
 }
 .gradient{
     width: 100%;
@@ -279,4 +280,56 @@ outline: none;
    }
    .card-content>button:hover{
     background: #07225e;
+   }
+   .footer{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    background-color: #262729;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
+   .col.text-logo{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+   }
+   .col{
+    color: #808080;
+   }
+   .footer-content{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: auto;
+    width: 100%;
+   }
+   .col>p{
+    margin-bottom: 20px;
+   }
+   .col>p:nth-child(5n) {
+    padding: 15px;
+    border: 1px solid #808080;
+    display: inline-block;
+   }
+   .col>p:nth-child(6n) {
+    font-size: 12px;
+    display: flex;
+    width: 270px;
+   }
+   .social{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    left: 79.8%;
+    right: 8.78%;
+    top: 64.24%;
+    bottom: 27.43%;
+
    }
